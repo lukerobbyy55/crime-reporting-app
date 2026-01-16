@@ -13,7 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription":
+          "Your location is used to show nearby crime reports and attach a location to reports you submit."
+      }
     },
     "android": {
       "adaptiveIcon": {
